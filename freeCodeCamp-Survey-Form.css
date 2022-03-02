@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+
+body {
+    color: #f3f3f3;
+}
+
+* {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-image: linear-gradient(157deg, rgba(43, 34, 121, 0.76), rgba(126, 140, 215, 0.88)), url("image/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 1.6;
+}
+
+#head1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#head2 {
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 600;
+    text-shadow: 2px 1px 3px #424242;
+}
+
+#maincontent {
+    background-color: rgba(27, 27, 50, 0.8);
+    max-width: 650px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 45px;
+
+    position: relative;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-control {
+    display: block;
+}
+
+option {
+    display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 8px;
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+}
+
+.inputgroups {
+    margin-top: 25px;
+}
+
+select {
+    width: 100%;
+    height: 39px;
+    font-size: 15px;
+    margin-top: 8px;
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+}
+
+.radiodiv {
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+input[type='checkbox'],
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+#textarea {
+    font-size: 15px;
+    margin-top: 8px;
+    min-height: 120px;
+    width: 100%;
+    padding: 5px 0;
+    resize: vertical;
+}
+
+#button {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 0.3em;
+    border: none;
+    margin-top: 30px;
+    background-color: mediumpurple;
+    color: white;
+}
+
+#button:hover {
+    background-color: rgb(223, 210, 250);
+    color: rgb(114, 78, 187);
+    text-shadow: 0px 0px 2px rgb(98 63 167);
+    box-shadow: 0px 0px 8px 0px rgb(223 210 250);
+}
